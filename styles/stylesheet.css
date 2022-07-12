@@ -43,6 +43,7 @@ li:last-of-type {
   padding-left: 6rem;
   display: inline-block;
   width: 45%;
+  color: black;
 }
 .main-body h2 {
   text-transform: uppercase;
@@ -63,7 +64,10 @@ li:last-of-type {
 .right-sidebar h4 {
   text-transform: uppercase;
 }
-.main-body, right-sidebar a:link {
+.main-body a:link {
+  color: steelblue;
+}
+.right-sidebar a:link {
   color: steelblue;
 }
 footer {
@@ -73,7 +77,8 @@ footer {
   background-color: #404040;
   color: white;
   text-align: center;
-  margin-left, margin-right: 25%
+  padding-left: 25%;
+  padding-right: 25%;
 }
 footer img {
   display: block;
