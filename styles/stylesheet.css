@@ -51,7 +51,7 @@ li:last-of-type {
 .main-body h3 {
   color: steelblue;
 }
-.main-body aside {
+.main-body blockquote {
   color: steelblue;
   font-size: 1.5rem;
 }
